@@ -46,6 +46,7 @@ def get_variable(name: str,
         initializer=get_initializer(name, initializer),
         **kwargs)
 
+
 def layer_norm(x, epsilon=1e-6):
     """Layer normalize the tensor x, averaging over the last dimension.
 
